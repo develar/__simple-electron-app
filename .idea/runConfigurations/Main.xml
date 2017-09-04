@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Main" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="$PROJECT_DIR$/node_modules/.bin/electron" node-parameters="-–remote-debugging-port=9222" path-to-js-file="dist/main/main.js" working-dir="$PROJECT_DIR$">
+    <envs>
+      <env name="RENDERER_DIR" value="../renderer" />
+    </envs>
+    <method />
+  </configuration>
+</component>

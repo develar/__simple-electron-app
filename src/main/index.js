@@ -5,7 +5,7 @@ import { app, BrowserWindow } from 'electron'
 const isDevelopment = process.env.NODE_ENV !== 'production'
 
 // Global reference to mainWindow
-// Neccessary to prevent win from being garbage collected
+// Necessary to prevent win from being garbage collected
 let mainWindow
 
 function createMainWindow () {
@@ -17,7 +17,7 @@ function createMainWindow () {
     // points to `index.html` in production
   let url = isDevelopment
     ? 'http://localhost:9080'
-    : `file://${__dirname}/index.html`
+    : `file://${require("path").join(process.env.RENDERER_DIR, __dirname) || __dirname}/index.html`
 
   if (isDevelopment) win.webContents.openDevTools()
 
@@ -25,6 +25,9 @@ function createMainWindow () {
 
   win.on('closed', () => {
     mainWindow = null
+  })
+  win.on("error", error => {
+    console.log(error)
   })
 
   return win

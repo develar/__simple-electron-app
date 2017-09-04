@@ -1510,9 +1510,9 @@ css-color-names@0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/css-color-names/-/css-color-names-0.0.4.tgz#808adc2e79cf84738069b646cb20ec27beb629e0"
 
-css-loader@^0.28.5:
-  version "0.28.5"
-  resolved "https://registry.yarnpkg.com/css-loader/-/css-loader-0.28.5.tgz#dd02bb91b94545710212ef7f6aaa66663113d754"
+css-loader@^0.28.7:
+  version "0.28.7"
+  resolved "https://registry.yarnpkg.com/css-loader/-/css-loader-0.28.7.tgz#5f2ee989dd32edd907717f953317656160999c1b"
   dependencies:
     babel-code-frame "^6.11.0"
     css-selector-tokenizer "^0.7.0"
@@ -1931,9 +1931,8 @@ electron-webpack-js@^1.0.3:
     babel-plugin-syntax-dynamic-import "^6.18.0"
     babel-preset-env "^1.6.0"
 
-electron-webpack@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/electron-webpack/-/electron-webpack-1.1.0.tgz#c174993226ebe4bd77e91e03c038eeb16ddb6c36"
+"electron-webpack@file:../Documents/electron-webpack/packages/electron-webpack":
+  version "1.4.0"
   dependencies:
     "@types/webpack-env" "^1.13.0"
     ajv "^5.2.2"
@@ -1943,7 +1942,7 @@ electron-webpack@^1.1.0:
     bluebird-lst "^1.0.3"
     chalk "^2.1.0"
     crocket "^0.9.11"
-    css-loader "^0.28.5"
+    css-loader "^0.28.7"
     debug "^3.0.1"
     electron-devtools-installer "^2.2.0"
     electron-webpack-js "^1.0.3"
@@ -1956,7 +1955,38 @@ electron-webpack@^1.1.0:
     node-loader "^0.6.0"
     read-config-file "^1.1.0"
     semver "^5.4.1"
-    source-map-support "^0.4.16"
+    source-map-support "^0.4.17"
+    style-loader "^0.18.2"
+    url-loader "^0.5.9"
+    virtual-module-webpack-plugin "^0.3.0"
+    webpack-dev-server "^2.7.1"
+    yargs "^8.0.2"
+
+"electron-webpack@file:/Users/develar/Documents/electron-webpack/packages/electron-webpack":
+  version "1.4.0"
+  dependencies:
+    "@types/webpack-env" "^1.13.0"
+    ajv "^5.2.2"
+    ajv-keywords "^2.1.0"
+    async-exit-hook "^2.0.1"
+    babel-minify-webpack-plugin "^0.2.0"
+    bluebird-lst "^1.0.3"
+    chalk "^2.1.0"
+    crocket "^0.9.11"
+    css-loader "^0.28.7"
+    debug "^3.0.1"
+    electron-devtools-installer "^2.2.0"
+    electron-webpack-js "^1.0.3"
+    extract-text-webpack-plugin "^3.0.0"
+    file-loader "^0.11.2"
+    fs-extra-p "^4.4.0"
+    html-loader "^0.5.1"
+    html-webpack-plugin "^2.30.1"
+    lazy-val "^1.0.2"
+    node-loader "^0.6.0"
+    read-config-file "^1.1.0"
+    semver "^5.4.1"
+    source-map-support "^0.4.17"
     style-loader "^0.18.2"
     url-loader "^0.5.9"
     virtual-module-webpack-plugin "^0.3.0"
@@ -4594,6 +4624,12 @@ source-list-map@^2.0.0:
 source-map-support@^0.4.15, source-map-support@^0.4.16:
   version "0.4.16"
   resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.4.16.tgz#16fecf98212467d017d586a2af68d628b9421cd8"
+  dependencies:
+    source-map "^0.5.6"
+
+source-map-support@^0.4.17:
+  version "0.4.17"
+  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.4.17.tgz#6f2150553e6375375d0ccb3180502b78c18ba430"
   dependencies:
     source-map "^0.5.6"
 
