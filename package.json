@@ -14,7 +14,7 @@
   "devDependencies": {
     "electron": "^1.7.5",
     "electron-builder": "^19.26.0",
-    "electron-webpack": "file:/Users/develar/Documents/electron-webpack/packages/electron-webpack",
+    "electron-webpack": "^1.4.0",
     "webpack": "^3.5.5"
   }
 }

@@ -1931,39 +1931,9 @@ electron-webpack-js@^1.0.3:
     babel-plugin-syntax-dynamic-import "^6.18.0"
     babel-preset-env "^1.6.0"
 
-"electron-webpack@file:../Documents/electron-webpack/packages/electron-webpack":
+electron-webpack@^1.4.0:
   version "1.4.0"
-  dependencies:
-    "@types/webpack-env" "^1.13.0"
-    ajv "^5.2.2"
-    ajv-keywords "^2.1.0"
-    async-exit-hook "^2.0.1"
-    babel-minify-webpack-plugin "^0.2.0"
-    bluebird-lst "^1.0.3"
-    chalk "^2.1.0"
-    crocket "^0.9.11"
-    css-loader "^0.28.7"
-    debug "^3.0.1"
-    electron-devtools-installer "^2.2.0"
-    electron-webpack-js "^1.0.3"
-    extract-text-webpack-plugin "^3.0.0"
-    file-loader "^0.11.2"
-    fs-extra-p "^4.4.0"
-    html-loader "^0.5.1"
-    html-webpack-plugin "^2.30.1"
-    lazy-val "^1.0.2"
-    node-loader "^0.6.0"
-    read-config-file "^1.1.0"
-    semver "^5.4.1"
-    source-map-support "^0.4.17"
-    style-loader "^0.18.2"
-    url-loader "^0.5.9"
-    virtual-module-webpack-plugin "^0.3.0"
-    webpack-dev-server "^2.7.1"
-    yargs "^8.0.2"
-
-"electron-webpack@file:/Users/develar/Documents/electron-webpack/packages/electron-webpack":
-  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/electron-webpack/-/electron-webpack-1.4.0.tgz#e9334c64868d7971656a94f752e963a6dc3ab254"
   dependencies:
     "@types/webpack-env" "^1.13.0"
     ajv "^5.2.2"
