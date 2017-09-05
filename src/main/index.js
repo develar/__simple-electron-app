@@ -17,7 +17,7 @@ function createMainWindow () {
     // points to `index.html` in production
   let url = isDevelopment
     ? 'http://localhost:9080'
-    : `file://${require("path").join(process.env.RENDERER_DIR, __dirname) || __dirname}/index.html`
+    : `file://${require("path").join(__dirname, process.env.RENDERER_DIR) || __dirname}/index.html`
 
   if (isDevelopment) win.webContents.openDevTools()
 
